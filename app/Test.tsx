@@ -115,7 +115,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>💧 water alarm app</Text>
+      <Text style={styles.title}>💧 water alarm app test</Text>
       <Text style={styles.countText}>오늘 마신 물: {waterCount}잔</Text>
 
       <TouchableOpacity style={styles.button} onPress={addWaterIntake}>
